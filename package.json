@@ -1,0 +1,25 @@
+{
+  "name": "example-react-webpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "NODE_ENV=production webpack",
+    "start": "NODE_ENV=development webpack-dev-server --hot --inline"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.40",
+    "@babel/preset-env": "^7.0.0-beta.40",
+    "@babel/preset-react": "^7.0.0-beta.40",
+    "babel-loader": "8.0.0-beta.0",
+    "html-webpack-plugin": "Graham42/html-webpack-plugin#feat/webpack-4",
+    "webpack": "^4.0.0-beta.2",
+    "webpack-cli": "^2.0.6",
+    "webpack-dev-server": "^3.0.0-beta.2"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-hot-loader": "^4.0.0-rc.0"
+  }
+}
